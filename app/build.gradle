@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+// add these
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.zhaichuankai' // ××××代表你github名字
 
 android {
     compileSdkVersion 28
